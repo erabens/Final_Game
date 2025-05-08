@@ -44,9 +44,10 @@ public static final String ANSI_YELLOW = "\u001B[30m\u001B[43m";
 If you look at the Strings, they’re led by a \ which means these are really just crazy looking escape characters. We can CONCATENATE these String “variables” to displayed text that will allow you to change the color within print statements.
 
 ### Example:  
-`System.out.print(ANSI_GREEN + “Hey!” + ANSI_RESET);` prints a green “Hey!” Note, it’s important to have the ANSI_RESET… if you don’t reset after the desired text, future text will stay in whatever color you called (even though you may not want it).
+`System.out.print(ANSI_GREEN + “Hey!” + ANSI_RESET);` prints a green “Hey!”  
+Note, it’s important to have the ANSI_RESET… if you don’t reset after the desired text, future text will stay in whatever color you called (even though you may not want it).
 
-### Some final notes (more to be added later?):
+## Some final notes (more to be added later?):
 - You are required to add multiple Class files to this repository. An easy way to organize this would be to have one Class for the gameboard, game functions, etc. and then a separate Class (main) to actually run the game.
 - To COMPILE your runner file, use `javac main.java` in the terminal (NOTE: You will need to recompile after every change!)
 - To RUN your compiled code, use `java main` in the terminal
