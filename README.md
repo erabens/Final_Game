@@ -1,5 +1,5 @@
 ## AP Computer Science A
-## 2D Array Project
+### 2D Array Game - Final Project
 
 Pretty simple, come up with a game project that shows me an implementation of 2D arrays. In the past, students have worked on versions of Wordle, Tic Tac Toe, Battleship, and Connect Four, but you can choose to work on anything that involves a 2D Array (Chutes and Ladders? Monopoly? Chess/Checkers?). Since we have done nothing with graphics, remember that everything will need to be text-based, so please make sure to include clear instructions on how your program will work!
 
