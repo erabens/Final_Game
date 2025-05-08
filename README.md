@@ -46,3 +46,7 @@ System.out.print(ANSI_GREEN + “Hey!” + ANSI_RESET) prints a green “Hey!”
 
 ### Some final notes (more to be added later?):
 - You are required to add multiple Class files to this repository. An easy way to organize this would be to have one Class for the gameboard, game functions, etc. and then a separate Class (main) to actually run the game.
+- To COMPILE your runner file, use `javac main.java` in the terminal (NOTE: You will need to recompile after every change!)
+- To RUN your compiled code, use `java main` in the terminal
+- To COMMIT your changes to the repository, use `git commit -m '<your comment about the commit here>'`
+- To PUSH your changes, use `git push`
